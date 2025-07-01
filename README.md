@@ -71,30 +71,22 @@ The Java program performs the following operations sequentially:
 
 1. Write to a File
 The program begins by writing a predefined message to a file named sample.txt. It uses BufferedWriter and FileWriter to handle the file-writing process efficiently.
-java
-Copy
-Edit
+
 writeToFile("Hello, this is the original content.\nThis line will be modified.\n");
 
 2. Read from the File
 It then reads the contents of the file using BufferedReader and FileReader, printing each line to the console. This validates that the file was written successfully.
-java
-Copy
-Edit
+
 readFromFile();
 
 3. Modify Specific Content
 The program replaces a specific line in the file using Files.readAllLines() to read all lines and then updates the target line using the replaceAll() method. The modified content is then written back using Files.write().
-java
-Copy
-Edit
+
 modifyFileContent("This line will be modified.", "Done!");
 
 4. Display Modified File Content
 Finally, the modified file is read again to verify and display the updated content.
-java
-Copy
-Edit
+
 readFromFile();
 
 🧠 Concepts Learned
