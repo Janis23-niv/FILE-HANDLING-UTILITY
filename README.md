@@ -101,26 +101,20 @@ readFromFile();
 
 • Real-world simulation of file modifications.
 
-✅ Output Example
-
-Original File Content:
-Hello, this is the original content.
-This line will be modified.
-
-Modified File Content:
-Hello, this is the original content.
-Done!
-
 📌 How to Run (Using BlueJ)
-Open BlueJ and create a new project.
 
-Add FileOperations.java to the project.
+• Open BlueJ and create a new project.
 
-Compile the class.
+• Add FileOperations.java to the project.
 
-Right-click and select void main(String[] args) to run.
+• Compile the class.
 
-Check the console output and the generated sample.txt file.
+• Right-click and select void main(String[] args) to run.
+
+• Check the console output and the generated sample.txt file.
 
 📢 Conclusion
 This Java file handling utility is a foundational exercise that reinforces basic file operations in Java. It emphasizes clean, readable code, structured output, and real-world use cases. It also sets the stage for more advanced projects involving data parsing, file search, configuration loading, or logging utilities. A must-do for all Java learners looking to build confidence in file I/O.
+
+✅ Output
+
