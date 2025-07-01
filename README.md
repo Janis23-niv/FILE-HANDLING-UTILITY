@@ -118,3 +118,4 @@ This Java file handling utility is a foundational exercise that reinforces basic
 
 ✅ Output
 
+![Image](https://github.com/user-attachments/assets/d0dc3325-5da1-47eb-a269-a24218bf2da5)
